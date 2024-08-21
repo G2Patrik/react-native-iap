@@ -33,6 +33,7 @@ def getExtOrIntegerDefault(name) {
 }
 
 android {
+  namespace 'com.dooboolab.rniap'
   compileSdkVersion getExtOrIntegerDefault("compileSdkVersion")
 
   defaultConfig {
